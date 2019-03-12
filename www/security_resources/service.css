@@ -1,0 +1,71 @@
+body#mainTable {
+	background-color: #C5CCD3;
+	margin: 0px 10px 0px 10px;
+	padding: 0;
+	-webkit-text-size-adjust: none;		/* turn off font resizing */
+}
+body#mainTable h1 {
+	margin: 0;
+	padding: 5px;
+	font-size: 15px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #4C566C;
+}
+
+a, a:visited {
+	color: #111111;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: 0;
+}
+
+ul {
+	background-color: #FFFFFF;
+	margin: 0px 0px 10px 00px;
+	padding: 0;
+	border-width: 1px;				/* draw a rectangle around each list */
+	border-style: solid;
+	border-color: #808080;
+	font-family: Helvetica;
+	border-radius: 8px;		/* round each corner of the created rectangle */
+	border-radius: 8px;		/* round each corner of the created rectangle */
+}
+
+li {
+	list-style-type: none;
+	clear: left;
+	border-top-width: 1px;			/* create lines between (above) cells */
+	border-top-style:solid;
+	border-top-color: #D9D9D9;
+	font-family: Helvetica;
+}
+
+li span.Title {
+	display: block;
+	float: left;
+	margin: 1.2em 1em 1.0em 0em;
+	font-weight: bold;
+}
+
+li span.Description {
+	display: block;
+	margin: .4em 1em .4em 12em;
+	min-height: 2.2em;
+	color: #404040;
+}
+
+li span.controlImage {
+	display: block;
+	float: left;
+	margin: 0em .8em 0em .6em;
+	min-height: 50px;
+	min-width: 40px;
+  position: relative;
+	top: 10px;
+	left: 5px;
+}
