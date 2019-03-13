@@ -3,6 +3,14 @@
 This repo is a collection of configurations, html snippets and code that provide
 a way to present many different applications in a single interface and web address.
 
+This is mostly geared toward macOS X users. I started my server adventure on a mac
+because I really like Indigo and SecuritySpy; they're mac-only. All of my trials
+and tribulations leading up to a solid home-media environment have been with macs.
+
+As the repo wiki gets built out I expect new solutions to come to fruition and
+more Linux and/or Docker support provided. Please check back once in a while for
+updates!
+
 # HOWTO
 
 Part of the goal of this repo is to document how to
@@ -28,11 +36,13 @@ What is currently provided:
 
 - An nginx config showing how to route traffic to each application.
 - A set of images, css, and html to create a minimal web interface.
+- macOS startup scripts for several applications that lack their own.
 
 Eventually I'll provide directions on how to replicate my entire stack, including
 installation, configuration and auto-starting services.
+
 I once ran all these apps on a single server, but recently split the security and
-automation roles from the media download and display roles; it's now on two computers
+automation roles from the media download and service roles; it's now on two computers
 and that's why you'll see two different backend IPs in the nginx configuration. Both
 computers are macOS 10.13, but the OSS apps also work on Linux (not Indigo or SecuritySpy).
 
@@ -41,7 +51,8 @@ computers are macOS 10.13, but the OSS apps also work on Linux (not Indigo or Se
 I have a handful of custom startup scripts and doohickies for Radarr, Jackett, Sonarr, etc.
 I also run a few pieces of custom software (found elsewhere on my github) to move data among these apps.
 
-Documenting how all these pieces of software can be tied together is the goal of this repo.
+Documenting how all these pieces of software can be installed, auto-started, monitored
+and tied together is the goal of this repo.
 More to come, but some of you will figure it out with the breadcrumbs I've provided.
 
 This is what the main screen looks like:

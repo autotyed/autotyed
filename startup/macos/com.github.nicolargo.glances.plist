@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.github.nicolargo.glances</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/glances</string>
+      <string>-t</string>
+      <string>30</string>
+      <string>--export</string>
+      <string>influxdb</string>
+      <string>-q</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/usr/local/var/log/glances.log</string>
+    <key>StandardOutPath</key>
+    <string>/usr/local/var/log/glances.log</string>
+  </dict>
+</plist>
