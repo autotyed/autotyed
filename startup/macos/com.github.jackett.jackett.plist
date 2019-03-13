@@ -3,11 +3,12 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.jackett.jackett</string>
+    <string>com.github.jackett.jackett</string>
     <key>ProgramArguments</key>
     <array>
       <string>/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono</string>
       <string>/Applications/Jackett.app/JackettConsole.exe</string>
+      <string>--NoRestart</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
@@ -17,5 +18,7 @@
     <string>/usr/local/var/log/jackett.log</string>
     <key>StandardOutPath</key>
     <string>/usr/local/var/log/jackett.log</string>
+    <key>WorkingDirectory</key>
+    <string>/Applications/Jackett.app/</string>
   </dict>
 </plist>

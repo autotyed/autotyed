@@ -8,8 +8,7 @@ because I really like Indigo and SecuritySpy; they're mac-only. All of my trials
 and tribulations leading up to a solid home-media environment have been with macs.
 
 As the repo wiki gets built out I expect new solutions to come to fruition and
-more Linux and/or Docker support provided. Please check back once in a while for
-updates!
+more Linux and/or Docker support provided. Please check back once in a while for updates!
 
 # HOWTO
 
@@ -27,8 +26,15 @@ _Reverse Proxy_ the following application through NGINX:
 - [NZBGet](https://nzbget.net)
 - [Plex](https://www.plex.tv)
 - [Tautulli](https://tautulli.com)
-- [Ubiquiti UniFI Controller](https://www.ui.com/download/unifi) (latest version not working yet)
+- [Ubiquiti UniFI Controller](https://www.ui.com/download/unifi) - latest version not working yet
 - [Grafana](https://grafana.com)
+
+Also installs and configures:
+- [Nginx](https://www.nginx.com) - web server with auto-renewing SSL cert from [Let's Encrypt](https://letsencrypt.org) using [certbot](https://certbot.eff.org)
+- [InfluxDB](https://www.influxdata.com) - time series database for Grafana backend
+- [Glances](https://nicolargo.github.io/glances/) - stores systems metrics in InfluxDB
+- [unpacker-poller](https://github.com/davidnewhall/unpacker-poller) - to extract Deluge downloads
+- [unifi-poller](https://github.com/davidnewhall/unifi-poller) - optionally store UniFI controller metrics in InfluxDB
 
 ## Now
 
@@ -37,9 +43,13 @@ What is currently provided:
 - An nginx config showing how to route traffic to each application.
 - A set of images, css, and html to create a minimal web interface.
 - macOS startup scripts for several applications that lack their own.
+- Minimal installation script for macOS.
+  - Run `make install` to automatically install most of the dependencies on a mac server.
+  - You should read through the script and understand what it does before running it.
 
-Eventually I'll provide directions on how to replicate my entire stack, including
-installation, configuration and auto-starting services.
+I'm working on the directions to replicate my entire stack, including
+installation, configuration and auto-starting services. I'll link a youtube video
+as well once I get the documentation in this repo more put together.
 
 I once ran all these apps on a single server, but recently split the security and
 automation roles from the media download and service roles; it's now on two computers

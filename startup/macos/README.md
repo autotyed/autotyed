@@ -7,3 +7,6 @@ Note:
 
 The most up to date version of [com.github.davidnewhall.unpacker-poller.plist](com.github.davidnewhall.unpacker-poller.plist) is provided from its [respective repo](https://github.com/davidnewhall/unpacker-poller). Installation
 of this application is highly recommended if you use Deluge.
+
+Tautulli comes with an install script that fabricates a LaunchAgent file. The
+agent provided here logs to a specific file; that's the only real difference.
