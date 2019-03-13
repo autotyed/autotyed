@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.tautulli.Tautulli</string>
+    <string>com.tautulli.tautulli</string>
     <key>ProgramArguments</key>
     <array>
       <string>/Applications/Tautulli.app/Tautulli.py</string>

@@ -1,7 +1,7 @@
 # macOS LaunchAgents
 
-This folder contains custom macOS X LaunchAgents for a few application.
-See the repo wiki for more information about how to use these.
+This folder contains custom macOS X LaunchAgents for a few applications that don't come with their own.
+See the [repo wiki](https://github.com/davidnewhall/autotyed/wiki) for more information about how to use these.
 
 Note:
 
