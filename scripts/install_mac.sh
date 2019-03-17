@@ -27,7 +27,8 @@ sudo brew services stop nginx
 [ -f /usr/local/etc/nginx/autotyed.key ] || openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /usr/local/etc/nginx/autotyed.key -out /usr/local/etc/nginx/autotyed.pem -subj "/C=US/ST=Earth/L=Jackson/O=Dis/CN=$(hostname -f)"
 [ -f /usr/local/etc/nginx/dhparams ] || openssl dhparam 1024 -out /usr/local/etc/nginx/dhparams
 cp autotyed.conf /usr/local/etc/nginx/servers/
-cp -r www /usr/local/var/autotyed
+mkdir -p /usr/local/var/autotyed
+cp -r www/* /usr/local/var/autotyed/
 sudo brew services start nginx
 
 echo "Your password is also required for sudo to run easy_install to install glances and pip."
@@ -38,7 +39,6 @@ echo "Starting Glances."
 cp startup/macos/com.github.nicolargo.glances.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/com.github.nicolargo.glances.plist
 
-sudo -H
 echo "Now create an account to log into the https interface."
 echo -n "Username: "
 read username

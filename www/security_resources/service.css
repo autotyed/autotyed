@@ -69,3 +69,7 @@ li span.controlImage {
 	top: 10px;
 	left: 5px;
 }
+
+.indigoPage {
+	display: none;
+}
