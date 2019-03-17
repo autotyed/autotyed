@@ -6,9 +6,10 @@
     <string>com.github.jackett.jackett</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono</string>
+      <string>/usr/local/bin/mono</string>
       <string>/Applications/Jackett.app/JackettConsole.exe</string>
       <string>--NoRestart</string>
+      <string>--ListenPrivate</string>
     </array>
     <key>RunAtLoad</key>
     <true/>

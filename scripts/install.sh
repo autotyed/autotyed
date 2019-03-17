@@ -1,10 +1,10 @@
 #!/bin/bash
 
 if [ "$(uname)" == "Darwin" ]; then
-  scripts/install_mac.sh
+  scripts/macos/install_all.sh
 fi
 
 # untested.
 if [ "$(uname)" == "Linux" ]; then
-  scripts/install_linux.sh
+  scripts/linux/install_all.sh
 fi

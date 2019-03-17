@@ -3,19 +3,20 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.github.morpheus65535.bazarr</string>
+    <string>audio.lidarr.lidarr</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/usr/bin/python2.7</string>
-      <string>/Applications/Bazarr.app/bazarr.py</string>
+      <string>/usr/local/bin/mono</string>
+      <string>--debug</string>
+      <string>/Applications/Lidarr.app/Contents/MacOS/Lidarr.exe</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardErrorPath</key>
-    <string>/usr/local/var/log/bazarr.log</string>
+    <string>/usr/local/var/log/lidarr.log</string>
     <key>StandardOutPath</key>
-    <string>/usr/local/var/log/bazarr.log</string>
+    <string>/usr/local/var/log/lidarr.log</string>
   </dict>
 </plist>

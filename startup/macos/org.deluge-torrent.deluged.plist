@@ -3,18 +3,16 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.deluged</string>
+    <string>org.deluge-torrent.deluged</string>
     <key>ProgramArguments</key>
     <array>
       <string>/Applications/Deluge.app/Contents/MacOS/deluged</string>
       <string>-d</string>
       <string>-L</string>
-      <string>error</string>
+      <string>info</string>
       <string>-l</string>
       <string>/usr/local/var/log/deluged.log</string>
     </array>
-    <key>UserName</key>
-    <string>administrator</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>org.deluge-torrent.deluge-web</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Applications/Deluge.app/Contents/MacOS/deluge-web</string>
+      <string>--no-ssl</string>
+      <string>-i</string>
+      <string>127.0.0.1</string>
+      <string>-p</string>
+      <string>8112</string>
+      <string>-L</string>
+      <string>info</string>
+      <string>-l</string>
+      <string>/usr/local/var/log/deluge-web.log</string>
+      <string>-b</string>
+      <string>/deluge/</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+  </dict>
+</plist>
