@@ -47,7 +47,7 @@ What is currently provided:
 - macOS startup scripts for several applications that lack their own.
 - Minimal installation scripts for macOS.
   - Run `make install` to automatically install most of the dependencies on a mac server.
-  - You should read through the script and understand what it does before running it.
+  - You should read the scripts and understand what they do before running `make install`.
 - A [wiki](../../wiki) where installation instructions will be refined.
 
 **Pull requests for Linux and/or Docker are welcomed!** I run all this stuff on
@@ -69,5 +69,5 @@ Documenting how all these pieces of software can be installed, auto-started, mon
 and tied together is the goal of this repo.
 More to come, but some of you will figure it out with the breadcrumbs I've provided.
 
-This is what the provide html page looks like. It's responsive and looks great on any device:
+This is what the provided html page looks like. It's responsive and looks great on any device:
 ![Screen Shot of Custom Interface](https://raw.githubusercontent.com/wiki/davidnewhall/autotyed/images/autotyed.png)
