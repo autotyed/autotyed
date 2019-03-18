@@ -69,5 +69,5 @@ Documenting how all these pieces of software can be installed, auto-started, mon
 and tied together is the goal of this repo.
 More to come, but some of you will figure it out with the breadcrumbs I've provided.
 
-This is what the main screen looked like. It's changed a little bit and this screenshot is now outdated:
-![Screen Shot of Custom Interface](images/autotyed.png)
+This is what the provide html page looks like. It's responsive and looks great on any device:
+![Screen Shot of Custom Interface](https://raw.githubusercontent.com/wiki/davidnewhall/autotyed/images/autotyed.png)
