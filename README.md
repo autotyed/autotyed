@@ -10,6 +10,8 @@ and tribulations leading up to a solid home-media environment have been with mac
 As the repo wiki gets built out I expect new solutions to come to fruition and
 more Linux and/or Docker support provided. Please check back once in a while for updates!
 
+**This readme is quickly going to become out of date. See the [wiki](../../wiki) for the latest info.**
+
 # HOWTO
 
 Part of the goal of this repo is to document how to
@@ -46,6 +48,7 @@ What is currently provided:
 - Minimal installation scripts for macOS.
   - Run `make install` to automatically install most of the dependencies on a mac server.
   - You should read through the script and understand what it does before running it.
+- A [wiki](../../wiki) where installation instructions will be refined.
 
 **Pull requests for Linux and/or Docker are welcomed!** I run all this stuff on
 dedicated Mac servers, so I have no need to venture down the Linux path. All of
