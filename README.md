@@ -7,7 +7,7 @@ This is mostly geared toward macOS X users. I started my server adventure on a m
 because I really like Indigo and SecuritySpy; they're mac-only. All of my trials
 and tribulations leading up to a solid home-media environment have been with macs.
 
-As the repo wiki gets built out I expect new solutions to come to fruition and
+As the [repo wiki](../../wiki) gets built out I expect new solutions to come to fruition and
 more Linux and/or Docker support provided. Please check back once in a while for updates!
 
 **This readme is quickly going to become out of date. See the [wiki](../../wiki) for the latest info.**
@@ -15,7 +15,7 @@ more Linux and/or Docker support provided. Please check back once in a while for
 # HOWTO
 
 Part of the goal of this repo is to document how to
-_Reverse Proxy_ the following application through NGINX:
+_Reverse Proxy_ the following application through NGINX using a single hostname:
 
 - [Deluge](https://deluge-torrent.org)
 - [SecuritySpy](https://www.bensoftware.com/securityspy/)
